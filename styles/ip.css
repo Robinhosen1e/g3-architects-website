@@ -73,6 +73,46 @@ nav .logo{
 }
 .banner-images img{
     width: 100%;
+    margin-bottom: 45px;
+}
+.iom{
+    display: flex;
+    max-width: 1440px;
+    margin: 85px auto 0;
+}
+.our-team{
+    align-items: center;
+}
+.our-team-img{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.our-team-tex{
+    max-width: 537px;
+    margin: 0 auto 73px;
+}
+.tex-box-tittel{
+    font-size: 2.81rem;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 24px;
+}
+.tex-box-tittel #text-gop{
+    color: #FF900E;
+}
+.tex-box-tittel .text-oop{
+    color: #727272;
+    font-weight: 500;
+}
+.our-team-tex .tex-box-descripton{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+.our-team{
+    margin-bottom: 130px;
 }
 @media screen and (max-width:567px){
     nav{
@@ -80,5 +120,14 @@ nav .logo{
     }
     nav .logo{
         margin-bottom: 20px;
+    }
+    .iom{
+        flex-direction: column;
+    }
+    .our-team-img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .our-team-tex{
+        margin: 50px 0 0 20px;
     }
 }
