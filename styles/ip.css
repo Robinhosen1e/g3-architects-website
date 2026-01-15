@@ -75,6 +75,59 @@ nav .logo{
     width: 100%;
     margin-bottom: 45px;
 }
+
+.fut-ures-info{
+    max-width: 75%;
+    width: 1440px;
+    margin: 0 auto 130px;
+    display: flex;
+}
+.fut-ures{
+    margin-right: 146px;
+}
+.fut-ures-heading h2{
+    max-width: 468px;
+    font-size: 2.81rem;
+    font-weight: 700;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+.fut-ures-heading p{
+    max-width: 568px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+.tex-box-goo{
+    max-width: 514px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    /* box-shadow: 10px 10px 30px #ebe9e9; */
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    padding: 30px 42px 30px 30px;
+    
+}
+.tex-box-goo h4{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.tex-box-goo p{
+    line-height: 26px;
+    color: #727272;
+}
+
+
+
+
+
+
+
+
 .iom{
     display: flex;
     max-width: 1440px;
@@ -156,6 +209,38 @@ nav .logo{
     font-weight: 600;
     color: #727272;
 }
+.Our-Sponspors-tittel{
+    width: 28%;
+    max-width: 542px;
+    margin: 50px auto;
+    text-align: center;
+}
+.Our-Sponspors-tittel h3{
+    font-size: 2.81rem;
+    font-weight: 700;
+    cursor: #131313;
+    margin-bottom: 24px;
+}
+.Our-Sponspors-tittel p{
+    color: #727272;
+}
+.Our-Sponspors-img{
+    filter: grayscale(100%);
+    max-width: 1440px;
+    margin: 0 auto 130px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+footer p{
+    padding: 40px 410px;
+    background-color: #FFF4E7;
+    font-size: 1.25rem;
+    margin-bottom: 216px;
+}
 @media screen and (max-width:567px){
     nav{
         flex-direction: column;
@@ -178,6 +263,15 @@ nav .logo{
     .fact{
         margin: 20px;
     }
+    .Our-Sponspors-img{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+        justify-items: center;
+    }
+    .Our-Sponspors-tittel{
+    text-align: center;
+    justify-items: center;
+}
   
 }
 
@@ -197,5 +291,10 @@ nav .logo{
     }
     .fact{
         margin: 10px 0px 0px;
+    }
+    .Our-Sponspors-img{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+        justify-items: center;
     }
 }
