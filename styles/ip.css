@@ -114,6 +114,48 @@ nav .logo{
 .our-team{
     margin-bottom: 130px;
 }
+.fact-textbox h2{
+    font-size: 2.81rem;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 24px;
+    
+}
+.fact-textbox p{
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 24px;
+    
+}
+
+.facts-conteainaer{
+    max-width: 73%;
+    width: 1390px;
+    margin: 0 auto;
+}
+.fact-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.fact{
+    margin: 100px 0 180px 50px;
+    border: 2px solid rgba(255, 144, 14, 1);
+    padding: 45px;
+    border-radius: 8px;
+}
+.fact h4{
+    font-size: 2.81rem;
+    font-weight: 600;
+    color: #424242;
+
+}
+.fact h5{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #727272;
+}
 @media screen and (max-width:567px){
     nav{
         flex-direction: column;
@@ -129,5 +171,31 @@ nav .logo{
     }
     .our-team-tex{
         margin: 50px 0 0 20px;
+    }
+    .fact-content{
+        flex-direction: column;
+    }
+    .fact{
+        margin: 20px;
+    }
+  
+}
+
+@media screen and (min-width:567px) and  (max-width:992px){
+    .iom{
+        flex-direction: column;
+    }
+    .our-team-tex{
+        margin-top: 50px;
+    }
+    .fact-content{
+        display: grid;
+        margin-top: 100px;
+        margin-bottom: 180px;
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .fact{
+        margin: 10px 0px 0px;
     }
 }
